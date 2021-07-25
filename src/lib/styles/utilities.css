@@ -1,0 +1,20 @@
+.text-block {
+  max-width: 75ch;
+}
+
+.text-block-sm {
+  max-width: 40ch;
+}
+
+.flow-vertical > *:not(:last-child) {
+  margin-bottom: var(--flow-vertical);
+}
+
+.flow-horizontal > *:not(:last-child) {
+  margin-right: var(--flow-horizontal);
+}
+
+/* purgecss ignore */
+.pt-0\.5rem {
+  padding-top: 0.5rem;
+}
